@@ -1,0 +1,21 @@
+import java.util.*;
+public class Main {
+    public static void main(String args[]) {
+		Scanner s= new Scanner(System.in);
+		char cc= s.next().charAt(0);
+		boolean b1= Character.isUpperCase(cc);
+		if(b1) {
+			System.out.println("UPPERCASE");
+		}
+		else {
+			boolean b2= Character.isLowerCase(cc);
+			if(b2) {
+				System.out.println("lowercase");
+			}
+			else {
+				System.out.println("Invalid");
+			}
+		}
+
+    }
+}
